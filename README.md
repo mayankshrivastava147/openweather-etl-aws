@@ -11,6 +11,11 @@ It pulls **current weather + 5-day forecasts** from the OpenWeather API and make
 
 ---
 
+## 📽️ Demo Video
+🎥 [Watch the Demo](https://drive.google.com/file/d/1Fe-N29dbvDk13CSjlRU8Y4WUhW0Hp2UQ/view?usp=sharing)
+
+---
+
 ## ⚙️ Pipeline Flow (ETL)
 
 1. **CloudWatch** → triggers **Lambda (Ingestion)** on schedule  
