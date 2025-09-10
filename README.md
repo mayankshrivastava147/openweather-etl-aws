@@ -11,7 +11,7 @@ It pulls **current weather + 5-day forecasts** from the OpenWeather API and make
 ---
 
 ## 📽️ Demo Video
-🎥 **Watch the Demo:** <https://drive.google.com/file/d/1Fe-N29dbvDk13CSjlRU8Y4WUhW0Hp2UQ/view?usp=sharing>
+🎥 [Watch the Demo](https://drive.google.com/file/d/1Fe-N29dbvDk13CSjRU8Y4WUhW0Hp2UQ/view?usp=sharing)
 
 ---
 
