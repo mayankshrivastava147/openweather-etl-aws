@@ -50,3 +50,15 @@ It pulls **current weather + 5-day forecasts** from the OpenWeather API and make
 - `Architecture.jpg` — pipeline diagram  
 - `README.md`
 
+---
+
+---
+
+---
+
+## 📓 Notebook
+- [`my_weather_api_ETL.ipynb`](my_weather_api_ETL.ipynb) — Local Jupyter Notebook for testing the OpenWeather API.  
+
+**Note:** API key is not included for security. Use an environment variable `OPENWEATHER_API_KEY` when running locally.
+
+
