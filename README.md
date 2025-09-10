@@ -21,19 +21,19 @@ It pulls **current weather + 5-day forecasts** from the OpenWeather API and make
   Triggers the extract Lambda on a schedule.
 
 - **Lambda (Extract) — `weather_api_data_extract`**  
-  Calls **OpenWeather API** (Python) → writes **raw JSON** to **S3 `/raw/`**.
+  Calls OpenWeather API (Python) → writes raw JSON to S3 `/raw/`.
 
 - **S3 Event Trigger**  
-  On new object under **`/raw/`**, triggers transform Lambda.
+  On new object under `/raw/`, triggers transform Lambda.
 
 - **Lambda (Transform + Load) — `weather_transformation_load_function`**  
-  Parses/cleans raw JSON → writes partitioned output to **S3 `/processed/`**.
+  Parses/cleans raw JSON → writes partitioned output to S3 `/processed/`.
 
 - **AWS Glue Crawler**  
-  Crawls **`s3://<bucket>/processed/`** → builds **Data Catalog tables**.
+  Crawls `s3://<bucket>/processed/` → builds Data Catalog tables.
 
 - **AWS Athena**  
-  Run **SQL** on the processed tables for analysis (current + 5-day forecast).
+  Run SQL on the processed tables for analysis (current + 5-day forecast).
 
 ---
 
